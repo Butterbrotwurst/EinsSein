@@ -91,5 +91,24 @@
     "contactUs": "Jetzt Kontakt aufnehmen",
     "learnMore": "Mehr erfahren",
     "donateNow": "Jetzt spenden"
+  },
+  "contactPage": {
+    "headline": "Kontakt",
+    "intro": "Du hast Fragen zu unseren Projekten, möchtest dich ehrenamtlich engagieren oder brauchst weitere Informationen? Zögere nicht, uns zu kontaktieren. Wir freuen uns auf deine Nachricht!",
+    "contactInfoTitle": "Kontaktdaten",
+    "emailLabel": "E-Mail:",
+    "emailValue": "info@einssein-verein.de", 
+    "phoneLabel": "Telefon:",
+    "phoneValue": "+49 123 4567890", 
+    "addressLabel": "Adresse:",
+    "addressValue": "Musterstraße 1, 12345 Musterstadt", 
+    "formTitle": "Kontaktformular",
+    "formIntro": "Nutze gerne unser Formular, um uns direkt zu schreiben:",
+    "formEmbedInstruction": "(Hier wird das Microsoft Forms eingebettet)",
+    "formNameLabel": "Name",
+    "formEmailLabel": "E-Mail",
+    "formMessageLabel": "Deine Nachricht",
+    "formSubmitButton": "Nachricht senden",
+    "mapTitle": "So findest du uns"
   }
 } 

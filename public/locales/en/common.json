@@ -91,5 +91,24 @@
     "contactUs": "Contact us now",
     "learnMore": "Learn more",
     "donateNow": "Donate now"
+  },
+  "contactPage": {
+    "headline": "Contact",
+    "intro": "Do you have questions about our projects, want to volunteer, or need more information? Don't hesitate to contact us. We look forward to hearing from you!",
+    "contactInfoTitle": "Contact Details",
+    "emailLabel": "Email:",
+    "emailValue": "info@einssein-verein.de",
+    "phoneLabel": "Phone:",
+    "phoneValue": "+49 123 4567890",
+    "addressLabel": "Address:",
+    "addressValue": "Example Street 1, 12345 Example City",
+    "formTitle": "Contact Form",
+    "formIntro": "Feel free to use our form to write to us directly:",
+    "formEmbedInstruction": "(Microsoft Forms will be embedded here)",
+    "formNameLabel": "Name",
+    "formEmailLabel": "Email",
+    "formMessageLabel": "Your Message",
+    "formSubmitButton": "Send Message",
+    "mapTitle": "How to find us"
   }
 } 
