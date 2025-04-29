@@ -73,11 +73,13 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
 
 // Funktion zum Generieren der statischen Pfade für jede Sprache
 export const getStaticPaths: GetStaticPaths = async () => {
-  // Definiere die Pfade /de und /en
-  const paths = ['/de', '/en'];
+  const locales = ['de', 'en'];
+  const paths = locales.map((locale) => ({
+    params: { locale },
+  }));
   return {
     paths,
-    fallback: false, // Wenn ein Pfad nicht existiert -> 404
+    fallback: false,
   };
 };
 

@@ -41,7 +41,10 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = ['/de/projects', '/en/projects'];
+  const locales = ['de', 'en'];
+  const paths = locales.map((locale) => ({
+    params: { locale }, // Hier muss nur die locale übergeben werden
+  }));
   return {
     paths,
     fallback: false,
