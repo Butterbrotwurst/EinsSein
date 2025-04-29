@@ -251,4 +251,103 @@
   .footerContent {
       gap: 1rem;
   }
+}
+
+/* --- Projects Page Specific Styles --- */
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive Grid */
+  gap: 2rem; /* Abstand zwischen Karten */
+  margin-top: 3rem;
+}
+
+.projectCard {
+  background-color: var(--background-light);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px var(--shadow-color);
+  display: flex;
+  flex-direction: column; /* Inhalte untereinander */
+  justify-content: space-between; /* Buttons nach unten */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left; /* Text in Karten linksbündig */
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px var(--shadow-color);
+}
+
+.projectCard h3 {
+  color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.projectCard p {
+  color: var(--text-medium);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex-grow: 1; /* Beschreibung nimmt Platz ein */
+}
+
+.targetAudience {
+    font-size: 0.9rem !important; /* Kleiner */
+    color: var(--text-dark) !important;
+    margin-bottom: 1.5rem !important;
+    flex-grow: 0 !important; /* Nicht wachsen */
+}
+
+.targetAudience strong {
+    font-weight: 600;
+}
+
+.cardButtons {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto; /* Buttons am unteren Rand */
+}
+
+/* Basis-Button-Styling (kann auch global definiert werden) */
+.cardButtonBase {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-block; /* Wichtig für Links */
+}
+
+.cardButtonPrimary {
+  composes: cardButtonBase; /* Erbt Basis-Styles */
+  background-color: var(--secondary-color); /* Orange für Haupt-CTA */
+  color: var(--text-light);
+  border: 1px solid var(--secondary-color);
+}
+
+.cardButtonPrimary:hover {
+  background-color: #e67e22; /* Dunkleres Orange */
+  border-color: #e67e22;
+  color: var(--text-light);
+  transform: translateY(-1px);
+}
+
+.cardButtonSecondary {
+  composes: cardButtonBase;
+  background-color: var(--background-light);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.cardButtonSecondary:hover {
+  background-color: var(--accent-color);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-1px);
 } 

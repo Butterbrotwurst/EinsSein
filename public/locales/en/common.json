@@ -45,5 +45,21 @@
     "whatWeDoText1": "Through diverse social projects and interactive workshops, we create learning and experiential environments.",
     "whatWeDoText2": "We emphasize active participation, encouraging participants not just to consume, but to co-create and learn to take responsibility for themselves and the community.",
     "imageAlt": "Symbolic image for community and learning"
+  },
+  "projectsPageContent": {
+    "headline": "Our Projects",
+    "intro": "Discover our current projects and workshops. We look forward to your participation!",
+    "learnMore": "Learn more",
+    "registerNow": "Register now",
+    "targetAudienceLabel": "Target Audience:",
+    "targetAudienceKids": "Children (6-10 years)",
+    "targetAudienceTeens": "Teenagers (11-16 years)",
+    "targetAudienceAll": "All age groups",
+    "project1_title": "Creative Workshop: Painting & Crafting",
+    "project1_desc": "A weekly workshop where children can unleash their creativity and try out various artistic techniques.",
+    "project2_title": "Nature Explorer Camp",
+    "project2_desc": "A holiday camp for teenagers where we explore nature together, play team games, and learn about sustainable practices.",
+    "project3_title": "Social Skills Training",
+    "project3_desc": "A course to strengthen empathy, communication, and conflict resolution for teenagers looking to improve their social skills."
   }
 } 

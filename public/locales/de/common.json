@@ -45,5 +45,21 @@
     "whatWeDoText1": "Durch vielfältige soziale Projekte und interaktive Workshops schaffen wir Lern- und Erfahrungsfelder.",
     "whatWeDoText2": "Wir legen Wert darauf, dass die Teilnehmenden nicht nur konsumieren, sondern aktiv mitgestalten und lernen, Verantwortung für sich und die Gemeinschaft zu übernehmen.",
     "imageAlt": "Symbolbild für Gemeinschaft und Lernen"
+  },
+  "projectsPageContent": {
+    "headline": "Unsere Projekte",
+    "intro": "Entdecke unsere aktuellen Projekte und Workshops. Wir freuen uns auf deine Teilnahme!",
+    "learnMore": "Mehr erfahren",
+    "registerNow": "Jetzt anmelden",
+    "targetAudienceLabel": "Zielgruppe:",
+    "targetAudienceKids": "Kinder (6-10 Jahre)",
+    "targetAudienceTeens": "Jugendliche (11-16 Jahre)",
+    "targetAudienceAll": "Alle Altersgruppen",
+    "project1_title": "Kreativwerkstatt: Malen & Gestalten",
+    "project1_desc": "Ein wöchentlicher Workshop, in dem Kinder ihrer Kreativität freien Lauf lassen und verschiedene künstlerische Techniken ausprobieren können.",
+    "project2_title": "Natur-Entdecker Camp",
+    "project2_desc": "Ein Feriencamp für Jugendliche, bei dem wir gemeinsam die Natur erkunden, Teamspiele machen und lernen, nachhaltig zu handeln.",
+    "project3_title": "Soziales Kompetenztraining",
+    "project3_desc": "Ein Kurs zur Stärkung von Empathie, Kommunikation und Konfliktlösung für Jugendliche, die ihre sozialen Fähigkeiten verbessern möchten."
   }
 } 
