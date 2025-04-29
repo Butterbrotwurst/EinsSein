@@ -78,5 +78,18 @@
     "member4_role": "Finanzen & Organisation",
     "member4_quote": "Ich sorge dafür, dass hinter den Kulissen alles rund läuft, damit die Projekte wirken können.",
     "imageAlt": "Profilbild von {name}"
+  },
+  "getInvolvedPage": {
+    "headline": "Mach mit!",
+    "intro": "Du möchtest dich aktiv für Kinder und Jugendliche in unserer Gemeinschaft einsetzen und unsere Vision von Wahrhaftigkeit und Einheit teilen? Wir freuen uns über dein Engagement! Es gibt viele Wege, wie du EinsSein unterstützen kannst.",
+    "volunteerTitle": "Freiwillig mitarbeiten",
+    "volunteerDesc": "Bringe deine Zeit und Talente ein! Ob bei der Organisation von Workshops, der Betreuung von Projekten oder administrativen Aufgaben – deine Hilfe macht einen Unterschied.",
+    "supportTitle": "Projekte unterstützen",
+    "supportDesc": "Du hast eine Idee für ein soziales Projekt oder möchtest ein bestehendes Projekt gezielt fördern? Lass uns gemeinsam überlegen, wie wir zusammenarbeiten können.",
+    "donateTitle": "Spenden",
+    "donateDesc": "Jede finanzielle Unterstützung hilft uns, unsere Angebote für Kinder und Jugendliche aufrechtzuerhalten und auszubauen. Deine Spende fließt direkt in unsere Projekte.",
+    "contactUs": "Jetzt Kontakt aufnehmen",
+    "learnMore": "Mehr erfahren",
+    "donateNow": "Jetzt spenden"
   }
 } 

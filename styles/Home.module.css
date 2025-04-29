@@ -416,4 +416,80 @@
   font-size: 0.95rem;
   line-height: 1.6;
   font-style: italic;
+}
+
+/* --- Get Involved Page Specific Styles --- */
+
+.engagementGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.engagementCard {
+  background-color: var(--background-light);
+  border-radius: 12px;
+  padding: 2.5rem; /* Etwas mehr Padding */
+  box-shadow: 0 4px 15px var(--shadow-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.engagementCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px var(--shadow-color);
+}
+
+.engagementCard h3 {
+  color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem; /* Etwas größer */
+  margin-bottom: 1rem;
+}
+
+.engagementCard p {
+  color: var(--text-medium);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+/* Wir verwenden die cardButtons, cardButtonPrimary, cardButtonSecondary von oben */
+
+/* Einfache Responsiveness für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .navbar {
+      padding: 1rem 1.5rem;
+      flex-direction: column;
+      gap: 0.8rem;
+  }
+  .navList {
+      gap: 1rem;
+      flex-wrap: wrap; /* Erlaubt Umbruch */
+      justify-content: center;
+  }
+  .main {
+    padding: 3rem 1rem;
+  }
+  .section {
+    padding: 2rem 1.5rem;
+  }
+  .section h1 {
+    font-size: 2.5rem;
+  }
+  .section h2 {
+    font-size: 1.8rem;
+  }
+  .valuesList {
+      flex-direction: column;
+      align-items: center;
+  }
+  .footerContent {
+      gap: 1rem;
+  }
 } 

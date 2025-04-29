@@ -78,5 +78,18 @@
     "member4_role": "Finance & Organization",
     "member4_quote": "I ensure that everything runs smoothly behind the scenes so the projects can have an impact.",
     "imageAlt": "Profile picture of {name}"
+  },
+  "getInvolvedPage": {
+    "headline": "Get Involved!",
+    "intro": "Do you want to actively support children and young people in our community and share our vision of truthfulness and unity? We welcome your commitment! There are many ways you can support EinsSein.",
+    "volunteerTitle": "Volunteer",
+    "volunteerDesc": "Contribute your time and talents! Whether it's organizing workshops, supervising projects, or administrative tasks – your help makes a difference.",
+    "supportTitle": "Support Projects",
+    "supportDesc": "Do you have an idea for a social project or want to specifically support an existing one? Let's discuss how we can collaborate.",
+    "donateTitle": "Donate",
+    "donateDesc": "Every financial contribution helps us maintain and expand our offerings for children and young people. Your donation goes directly into our projects.",
+    "contactUs": "Contact us now",
+    "learnMore": "Learn more",
+    "donateNow": "Donate now"
   }
 } 
