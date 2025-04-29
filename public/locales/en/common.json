@@ -34,5 +34,16 @@
   },
   "projectsPage": {
      "title": "Our Projects"
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "headline": "Who We Are",
+    "missionTitle": "Our Mission & Vision",
+    "missionText1": "At EinsSein, we believe in the power of truthfulness, unity, and commitment. Our goal is to awaken and foster these values in the heart of every individual.",
+    "missionText2": "A special focus of our work is on children and young people. We aim to provide spaces where they can develop social skills, experience community, and unfold their creativity.",
+    "whatWeDoTitle": "What We Do",
+    "whatWeDoText1": "Through diverse social projects and interactive workshops, we create learning and experiential environments.",
+    "whatWeDoText2": "We emphasize active participation, encouraging participants not just to consume, but to co-create and learn to take responsibility for themselves and the community.",
+    "imageAlt": "Symbolic image for community and learning"
   }
 } 

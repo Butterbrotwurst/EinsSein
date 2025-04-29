@@ -34,5 +34,16 @@
   },
   "projectsPage": {
      "title": "Unsere Projekte"
+  },
+  "aboutPage": {
+    "title": "Über uns",
+    "headline": "Wer wir sind",
+    "missionTitle": "Unsere Mission & Vision",
+    "missionText1": "Wir bei EinsSein glauben an die Kraft der Wahrhaftigkeit, Einheit und des Engagements. Unser Ziel ist es, diese Werte im Herzen jedes Menschen zu wecken und zu fördern.",
+    "missionText2": "Ein besonderer Fokus unserer Arbeit liegt auf Kindern und Jugendlichen. Wir möchten ihnen Räume bieten, in denen sie soziale Kompetenzen entwickeln, Gemeinschaft erleben und ihre Kreativität entfalten können.",
+    "whatWeDoTitle": "Was wir tun",
+    "whatWeDoText1": "Durch vielfältige soziale Projekte und interaktive Workshops schaffen wir Lern- und Erfahrungsfelder.",
+    "whatWeDoText2": "Wir legen Wert darauf, dass die Teilnehmenden nicht nur konsumieren, sondern aktiv mitgestalten und lernen, Verantwortung für sich und die Gemeinschaft zu übernehmen.",
+    "imageAlt": "Symbolbild für Gemeinschaft und Lernen"
   }
 } 
