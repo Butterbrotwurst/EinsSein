@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import LanguageSwitcher from './LanguageSwitcher';
 import styles from '../styles/Home.module.css'; // Beispielstyles
 
 const Footer = () => {
@@ -22,7 +21,6 @@ const Footer = () => {
           {t('footer.socialMedia')}: {/* Füge hier Social Media Icons/Links hinzu */}
           <span> FB </span> <span> IG </span> <span> TW </span>
         </div>
-        <LanguageSwitcher />
       </div>
     </footer>
   );

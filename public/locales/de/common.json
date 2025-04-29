@@ -110,5 +110,9 @@
     "formMessageLabel": "Deine Nachricht",
     "formSubmitButton": "Nachricht senden",
     "mapTitle": "So findest du uns"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English"
   }
 } 

@@ -20,6 +20,13 @@
   width: 100%;
 }
 
+/* Container für rechte Seite der Navbar (Nav + Switcher) */
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Abstand zwischen NavList und Switcher */
+}
+
 .logo {
   font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
@@ -602,6 +609,123 @@
     composes: cardButtonPrimary; /* Reuse button style */
     width: auto;
 }
+
+/* Einfache Responsiveness für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .navbar {
+      padding: 1rem 1.5rem;
+      flex-direction: column;
+      gap: 0.8rem;
+  }
+  .navList {
+      gap: 1rem;
+      flex-wrap: wrap; /* Erlaubt Umbruch */
+      justify-content: center;
+  }
+  .main {
+    padding: 3rem 1rem;
+  }
+  .section {
+    padding: 2rem 1.5rem;
+  }
+  .section h1 {
+    font-size: 2.5rem;
+  }
+  .section h2 {
+    font-size: 1.8rem;
+  }
+  .valuesList {
+      flex-direction: column;
+      align-items: center;
+  }
+  .footerContent {
+      gap: 1rem;
+  }
+}
+
+/* --- Language Switcher Dropdown Styles --- */
+
+.languageSwitcherContainer {
+  position: relative; /* Wichtig für die Positionierung des Dropdowns */
+  display: inline-block;
+}
+
+.languageSwitcherButton {
+  background: none;
+  border: none;
+  /* border: 1px solid #ccc; */ /* Optionaler Rand */
+  padding: 0.5rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-medium);
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.languageSwitcherButton:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+/* Pfeil für Dropdown */
+.arrow {
+  border: solid var(--text-medium);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+  transition: transform 0.2s ease;
+}
+
+.arrowDown {
+  transform: rotate(45deg);
+}
+
+.arrowUp {
+  transform: rotate(-135deg);
+}
+
+.languageSwitcherButton:hover .arrow {
+  border-color: var(--primary-color);
+}
+
+
+.languageDropdown {
+  position: absolute;
+  top: 100%; /* Direkt unter dem Button */
+  right: 0; /* Rechtsbündig mit dem Button */
+  background-color: var(--background-light);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0.3rem 0 0 0;
+  min-width: 120px; /* Mindestbreite */
+  z-index: 110; /* Über der Navbar */
+  overflow: hidden;
+}
+
+.languageDropdownItem {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  color: var(--text-medium);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.languageDropdownItem:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
 
 /* Einfache Responsiveness für kleinere Bildschirme */
 @media (max-width: 768px) {
