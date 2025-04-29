@@ -1,0 +1,41 @@
+/* Minimalistisches Reset und Grund-Styling */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #f0f4f8; /* Helles Hintergrundgrau */
+  color: #333; /* Dunkler Text */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3; /* Beispiel-Linkfarbe */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Farbenfrohe Akzente (Beispiele - anpassen!) */
+:root {
+  --primary-color: #4a90e2; /* Blau */
+  --secondary-color: #f5a623; /* Orange */
+  --accent-color: #7ed321; /* Grün */
+  --text-light: #ffffff;
+  --text-dark: #333333;
+  --background-light: #ffffff;
+  --background-medium: #f0f4f8;
+} 

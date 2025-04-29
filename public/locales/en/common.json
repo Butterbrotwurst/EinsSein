@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Projects",
+    "team": "Team",
+    "getInvolved": "Get Involved",
+    "contact": "Contact"
+  },
+  "welcome": {
+    "headline": "Welcome to EinsSein",
+    "message": "Together we shape a better future through social projects and workshops."
+  },
+  "about": {
+    "title": "About Us",
+    "text": "EinsSein is a non-profit organization dedicated to social justice, offering creative workshops for children and teenagers."
+  },
+  "values": {
+    "title": "Our Values",
+    "truthfulness": "Truthfulness",
+    "unity": "Unity",
+    "service": "Service"
+  },
+  "cta": {
+    "button": "Explore Projects"
+  },
+  "footer": {
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy",
+    "socialMedia": "Follow us"
+  },
+  "languageSwitcher": {
+    "switchLocale": "Switch Language"
+  },
+  "projectsPage": {
+     "title": "Our Projects"
+  }
+} 

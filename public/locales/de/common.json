@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "projects": "Projekte",
+    "team": "Team",
+    "getInvolved": "Mitmachen",
+    "contact": "Kontakt"
+  },
+  "welcome": {
+    "headline": "Willkommen bei EinsSein",
+    "message": "Gemeinsam gestalten wir eine bessere Zukunft durch soziale Projekte und Workshops."
+  },
+  "about": {
+    "title": "Über Uns",
+    "text": "EinsSein ist ein gemeinnütziger Verein, der sich für soziale Gerechtigkeit einsetzt und kreative Workshops für Kinder und Jugendliche anbietet."
+  },
+  "values": {
+    "title": "Unsere Werte",
+    "truthfulness": "Wahrhaftigkeit",
+    "unity": "Einheit",
+    "service": "Dienst"
+  },
+  "cta": {
+    "button": "Projekte entdecken"
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "socialMedia": "Folge uns"
+  },
+  "languageSwitcher": {
+    "switchLocale": "Sprache wechseln"
+  },
+  "projectsPage": {
+     "title": "Unsere Projekte"
+  }
+} 
