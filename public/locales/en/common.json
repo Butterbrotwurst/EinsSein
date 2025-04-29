@@ -61,5 +61,22 @@
     "project2_desc": "A holiday camp for teenagers where we explore nature together, play team games, and learn about sustainable practices.",
     "project3_title": "Social Skills Training",
     "project3_desc": "A course to strengthen empathy, communication, and conflict resolution for teenagers looking to improve their social skills."
+  },
+  "teamPage": {
+    "headline": "Our Team",
+    "intro": "Behind each of our projects are dedicated people who work with heart and mind. Get to know some of us!",
+    "member1_name": "Anna Müller",
+    "member1_role": "Project Lead & Founder",
+    "member1_quote": "My vision is to give young people the tools to unfold their full potential.",
+    "member2_name": "Ben Schmidt",
+    "member2_role": "Workshop Facilitator & Creative Head",
+    "member2_quote": "I love awakening creativity and seeing children grow beyond themselves.",
+    "member3_name": "Clara Fischer",
+    "member3_role": "Public Relations & Network",
+    "member3_quote": "It's important to me to make the valuable work of EinsSein visible and build partnerships.",
+    "member4_name": "David Weber",
+    "member4_role": "Finance & Organization",
+    "member4_quote": "I ensure that everything runs smoothly behind the scenes so the projects can have an impact.",
+    "imageAlt": "Profile picture of {name}"
   }
 } 

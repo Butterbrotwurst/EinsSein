@@ -61,5 +61,22 @@
     "project2_desc": "Ein Feriencamp für Jugendliche, bei dem wir gemeinsam die Natur erkunden, Teamspiele machen und lernen, nachhaltig zu handeln.",
     "project3_title": "Soziales Kompetenztraining",
     "project3_desc": "Ein Kurs zur Stärkung von Empathie, Kommunikation und Konfliktlösung für Jugendliche, die ihre sozialen Fähigkeiten verbessern möchten."
+  },
+  "teamPage": {
+    "headline": "Unser Team",
+    "intro": "Hinter jedem unserer Projekte stehen engagierte Menschen, die mit Herz und Verstand arbeiten. Lernen Sie einige von uns kennen!",
+    "member1_name": "Anna Müller",
+    "member1_role": "Projektleitung & Gründerin",
+    "member1_quote": "Meine Vision ist es, jungen Menschen Werkzeuge an die Hand zu geben, um ihr volles Potenzial zu entfalten.",
+    "member2_name": "Ben Schmidt",
+    "member2_role": "Workshopleiter & Kreativkopf",
+    "member2_quote": "Ich liebe es, Kreativität zu wecken und zu sehen, wie Kinder über sich hinauswachsen.",
+    "member3_name": "Clara Fischer",
+    "member3_role": "Öffentlichkeitsarbeit & Netzwerk",
+    "member3_quote": "Es ist mir wichtig, die wertvolle Arbeit von EinsSein sichtbar zu machen und Partnerschaften aufzubauen.",
+    "member4_name": "David Weber",
+    "member4_role": "Finanzen & Organisation",
+    "member4_quote": "Ich sorge dafür, dass hinter den Kulissen alles rund läuft, damit die Projekte wirken können.",
+    "imageAlt": "Profilbild von {name}"
   }
 } 

@@ -350,4 +350,70 @@
   border-color: var(--primary-color);
   color: var(--primary-color);
   transform: translateY(-1px);
+}
+
+/* --- Team Page Specific Styles --- */
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Grid für Teammitglieder */
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.teamMemberCard {
+  background-color: var(--background-light);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px var(--shadow-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.teamMemberCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px var(--shadow-color);
+}
+
+.teamMemberImageContainer {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Rundes Bild */
+  overflow: hidden; /* Stellt sicher, dass das Bild rund bleibt */
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teamMemberImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Sorgt dafür, dass das Bild den Kreis ausfüllt */
+}
+
+.teamMemberName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.teamMemberRole {
+  color: var(--secondary-color); /* Akzentfarbe für Rolle */
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.teamMemberQuote {
+  color: var(--text-medium);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-style: italic;
 } 
