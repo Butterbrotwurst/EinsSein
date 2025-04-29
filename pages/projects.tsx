@@ -1,11 +1,11 @@
 import React from 'react';
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import { GetStaticProps, NextPage } from 'next'; // GetStaticPaths entfernt
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Head from 'next/head';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-import styles from '../../styles/Home.module.css'; // Wiederverwende Styles oder erstelle neue
+import Navbar from '../components/Navbar'; // Pfad korrigiert
+import Footer from '../components/Footer'; // Pfad korrigiert
+import styles from '../styles/Home.module.css'; // Pfad korrigiert
 
 const Projects: NextPage = () => {
   const { t } = useTranslation('common');
@@ -40,15 +40,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   };
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const locales = ['de', 'en'];
-  const paths = locales.map((locale) => ({
-    params: { locale }, // Hier muss nur die locale übergeben werden
-  }));
-  return {
-    paths,
-    fallback: false,
-  };
-};
+// getStaticPaths wurde entfernt
 
 export default Projects; 

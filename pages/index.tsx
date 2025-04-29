@@ -1,27 +1,26 @@
-import React from 'react'; // Import React
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import React from 'react';
+import { GetStaticProps, NextPage } from 'next'; // GetStaticPaths entfernt
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-import CTAButton from '../../components/CTAButton';
-import styles from '../../styles/Home.module.css'; // Beispiel für CSS-Module
+import Navbar from '../components/Navbar'; // Pfad korrigiert
+import Footer from '../components/Footer'; // Pfad korrigiert
+import CTAButton from '../components/CTAButton'; // Pfad korrigiert
+import styles from '../styles/Home.module.css'; // Pfad korrigiert
 
-// Beispiel für die Hauptseite
 const Home: NextPage = () => {
   const { t } = useTranslation('common');
   const router = useRouter();
-  const { locale } = router; // Aktuelle Locale aus dem Router holen
+  const { locale } = router;
 
   return (
     <div className={styles.container}>
       <Head>
         <title>EinsSein e.V. - {t('navbar.home')}</title>
         <meta name="description" content={t('welcome.message')} />
-        <link rel="icon" href="/favicon.ico" /> {/* Füge ein Favicon hinzu */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
@@ -62,25 +61,14 @@ const Home: NextPage = () => {
 
 // Funktion zum Laden der Übersetzungen für SSG
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-  const currentLocale = locale || 'de'; // Fallback auf Deutsch
+  const currentLocale = locale || 'de';
   return {
     props: {
       ...(await serverSideTranslations(currentLocale, ['common'])),
-      // Hier könnten weitere Props geladen werden
     },
   };
 };
 
-// Funktion zum Generieren der statischen Pfade für jede Sprache
-export const getStaticPaths: GetStaticPaths = async () => {
-  const locales = ['de', 'en'];
-  const paths = locales.map((locale) => ({
-    params: { locale },
-  }));
-  return {
-    paths,
-    fallback: false,
-  };
-};
+// getStaticPaths wurde entfernt
 
 export default Home; 
